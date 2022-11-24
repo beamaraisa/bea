@@ -1,0 +1,201 @@
+:root {
+    --primary-font: "Poppins", sans-serif;
+    --primary-color: #000;
+    --second-color: white;
+}
+
+body {
+    font-family: var(--primary-font);
+    background-color: hwb(0 13% 86%);
+    color: rgb(180, 180, 180);
+}
+
+.divider {
+    height: 1px;
+    background-color: #cc0000;
+    width: 100%;
+    opacity: 20%;
+}
+
+i {
+    color: red;
+    font-weight: 700;
+}
+
+a {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.header {
+    text-align: center;
+    padding: 1.5em 0;
+    border-bottom: 1px solid #cc0000;
+}
+
+.logo {
+    text-decoration: none;
+    color: #cc0000;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+/* SECTION HOME */
+
+.home {
+    margin: 1.5em;
+}
+
+.home-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.home-title {
+    color: var(--second-color);
+    font-weight: 700;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 0 1rem;
+}
+
+.home-text {
+    font-size: 14px;
+    text-align: justify;
+    background-color: rgb(28, 28, 28);
+    padding: 0.3em;
+    line-height: 18px;
+}
+
+.retangulo {
+    margin-left: 0.3125rem;
+    width: 50%;
+    height: 0.3125rem;
+    background-color: #e61919;
+}
+
+/* SECOND SECTION */
+
+.retangulo1 {
+    margin-left: 0.3125rem;
+    width: 10%;
+    height: 0.3125rem;
+    background-color: #e61919;
+}
+
+.retangulo2 {
+    margin-left: 0.3125rem;
+    width: 80%;
+    height: 0.3125rem;
+    background-color: #e61919;
+}
+
+.music-section {
+    margin: 1.5em;
+}
+
+.music-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.music-title {
+    color: var(--second-color);
+    font-weight: 700;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 0 1rem;
+}
+
+.music-text {
+    font-size: 14px;
+    text-align: justify;
+    background-color: rgb(41, 41, 41);
+    padding: 0.3em;
+    line-height: 18px;
+}
+
+/* WE SECTION */
+
+.we-section {
+    margin: 1.5em;
+}
+
+.we-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.we-title {
+    color: var(--second-color);
+    font-weight: 700;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 0 1rem;
+}
+
+.we-text {
+    font-size: 14px;
+    text-align: justify;
+    background-color: rgb(41, 41, 41);
+    padding: 0.3em;
+    line-height: 18px;
+}
+
+/* DATE ONE MONTH */
+
+.date {
+    margin: 1em;
+}
+
+.date-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.date-title {
+    color: var(--second-color);
+    font-weight: 700;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 0 1rem;
+}
+
+.date-text {
+    font-size: 14px;
+    text-align: justify;
+    background-color: rgb(41, 41, 41);
+    padding: 0.3em; 
+    line-height: 18px;
+}
+
+.retangulo3 {
+    margin-left: 0.3125rem;
+    width: 34.5%;
+    height: 0.3125rem;
+    background-color: #e61919;
+}
+
+.retangulo4 {
+    margin-left: 0.3125rem;
+    width: 34.5%;
+    height: 0.3125rem;
+    background-color: #e61919;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: hwb(0 9% 89%);
+    color: white;
+    font-size: 0.75rem;
+    text-align: center;
+    padding: .5em 0;
+    
+}
